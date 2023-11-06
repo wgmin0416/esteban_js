@@ -1,0 +1,23 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: Esteban
+  description: Esteban Server API
+  license:
+    name: wgmin
+servers:
+  - url: http://localhost:3000/ #자신의 포트번호
+
+#Paths api 경로 지정
+paths: {}
+#
+## ===================================================
+## 사용자 관리
+## ===================================================
+#/api/v1/users/{cur}/{page_size}:
+#  $ref: "./v1/user/users.yaml"
+#
+## ===================================================
+## 인증
+## ===================================================
+
