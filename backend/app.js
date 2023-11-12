@@ -11,4 +11,7 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 app.use("/api", api);
 
+// frontend
+app.use(express.static(path.join(__dirname, "../frontend/build")));
+
 module.exports = app;
