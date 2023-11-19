@@ -1,9 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 function Header(props) {
     return (
         <>
-            <h1>헤더입니다.</h1>
+            <div>
+                <ul>
+                    <Link to="/"><li>메인</li></Link>
+                    <Link to="/team"><li>팀</li></Link>
+                </ul>
+            </div>
         </>
     );
 }
